@@ -1,0 +1,8 @@
+The python code contains the function to parse the .xml files and then 
+to generate the Output.xlxs file for all three different data objects needed.
+The user is required to give the directory path, the code will then generate the 
+parsed file for all teh .xml file contained in the input directory by the user.
+
+The output file wil have three tab that will contain data for the different data objects under Messages, Rules and Errors.
+The data in the output file will be a  collective of the .xml files contained in the input directory
+ 
