@@ -41,7 +41,7 @@ def savetoexcel(df, filename, sheet):
 # Function to Parse through the tree node to get data objects
 def parser(name):
     os.chdir(name)
-    for file in list(glob.glob('*.xml',recursive=True)):
+    for file in list(glob.glob('*.xml')):
 
         print('Executing file: {}'.format(file))
         datalist = ['./DataExtract900jer/Messages', './DataExtract900jer/Rules', './Nuula/Errors']
